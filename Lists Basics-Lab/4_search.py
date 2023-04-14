@@ -1,10 +1,10 @@
-lines = int(input())
+numbers = int(input())
 word = input()
 
 strings = []
 strings_including_word = []
 
-for _ in range(lines):
+for _ in range(numbers):
     current_word = input()
     strings.append(current_word)
 

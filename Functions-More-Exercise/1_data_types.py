@@ -1,4 +1,4 @@
-num_type = str(input())
+number_type = str(input())
 number = input()
 
 
@@ -19,4 +19,4 @@ def data_type_teller(inputs, num):
     return result
 
 
-print(data_type_teller(num_type, number))
+print(data_type_teller(number_type, number))
